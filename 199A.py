@@ -19,7 +19,6 @@ def f(x,n,*ara):
         ara[y],ara[x]=ara[x],ara[y]
         f(x+1,n,*ara)
     else:
-        print 'broken angel'
         return ara
 
 n=int(input())
