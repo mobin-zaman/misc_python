@@ -28,7 +28,7 @@ def mutation(chromosome_list):
 
 
 def fitness(a):
-    return ((7-a[0])**3)+((6-a[1])**2)+(2-a[2])+a[3]
+    return 1/((7-a[0])**3)+((6-a[1])**2)+(2-a[2])+a[3]
 
 
 def sort_chromosome_list(chrome_list):
